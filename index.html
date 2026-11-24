@@ -1,0 +1,148 @@
+<!doctype html> 2
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fdf3ea">
+  <meta name="description" content="Bolos artesanais, doces e aulas de confeitaria feitos com carinho pela Tati Bolos.">
+  <title>Tati Bolos | Feito com carinho, servido com afeto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Feito à mão, com ingredientes de verdade <span aria-hidden="true">✦</span> Encomendas pelo WhatsApp</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Tati Bolos, página inicial">
+        <span class="brand-mark" aria-hidden="true">t.</span>
+        <span class="brand-name">tati <i>bolos</i><small>CONFEITARIA ARTESANAL</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#sobre">Nossa história</a><a href="#bolos">Nossos bolos</a><a href="#receitas">Receitas</a><a href="#contato">Contato</a>
+      </nav>
+      <a class="button button-small header-cta" href="https://wa.me/5511959171215?text=Oi%2C%20Tati!%20Quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Encomendar <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> UM PEDACINHO DE FELICIDADE</p>
+          <h1>Doçura que vira <em>memória.</em></h1>
+          <p class="hero-description">Bolos artesanais e doces feitos com afeto para deixar seus momentos ainda mais especiais.</p>
+          <div class="hero-actions">
+            <a class="button" href="#bolos">Descubra nossos bolos <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="cursos.html">Conheça nossas aulas <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note"><span class="note-stars" aria-label="5 estrelas">★★★★★</span><span>Pequenos detalhes, grandes celebrações</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-art-orbit"></div>
+          <div class="hero-art-label"><span>feito à mão</span><b>e com amor</b></div>
+          <div class="hero-cake-stage">
+            <img class="hero-cake" src="Design%20Sytem_confeitaria/Design%20Sytem/hero-cake.jpg" alt="Bolo de casamento de três andares decorado com flores em tons de rosa">
+          </div>
+          <span class="art-caption">uma receita de carinho <span aria-hidden="true">♡</span></span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Role para conhecer a Tati Bolos"><span></span> role para sentir o carinho</a>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container about-layout">
+        <div class="about-art">
+          <img class="about-photo" src="Assets/tati_bolos_foto _de _corpo.jpeg" alt="Tati, confeiteira da Tati Bolos, usando seu uniforme">
+          <div class="about-stamp">feito com<br><strong>afeto</strong><span>♡</span></div>
+          <span class="about-caption">receitas que abraçam</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">UM POUQUINHO SOBRE NÓS</p>
+          <h2>Carinho é o nosso <em>ingrediente secreto.</em></h2>
+          <p class="body-copy">Na Tati Bolos, cada receita começa com uma vontade simples: fazer alguém sorrir. Criamos bolos e doces artesanalmente, com cuidado em cada camada e um toque especial para a sua história.</p>
+          <p class="body-copy">Do café da tarde à festa que você sonhou, estamos aqui para adoçar os momentos que merecem ser lembrados.</p>
+          <div class="skill-list">
+            <div class="skill-item"><div class="skill-heading"><span>Design de bolos</span><span>95%</span></div><div class="skill-track"><span data-progress="95"></span></div></div>
+            <div class="skill-item"><div class="skill-heading"><span>Confeitaria artesanal</span><span>90%</span></div><div class="skill-track"><span data-progress="90"></span></div></div>
+            <div class="skill-item"><div class="skill-heading"><span>Receitas exclusivas</span><span>90%</span></div><div class="skill-track"><span data-progress="90"></span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories-section" aria-label="Categorias de produtos">
+      <div class="container">
+        <div class="section-heading centered category-heading"><p class="eyebrow">UM SABOR PARA CADA VONTADE</p><h2>Escolha sua <em>doçura.</em></h2></div>
+        <div class="category-slider" id="categories">
+          <button class="category-chip is-active" data-category="todos" type="button"><span class="category-icon">✿</span><span>Todos</span></button>
+          <button class="category-chip" data-category="bolos" type="button"><span class="category-icon">♧</span><span>Bolos</span></button>
+          <button class="category-chip" data-category="personalizados" type="button"><span class="category-icon">✧</span><span>Personalizados</span></button>
+          <button class="category-chip" data-category="potes" type="button"><span class="category-icon">▤</span><span>Bolo de pote</span></button>
+          <button class="category-chip" data-category="sem-cobertura" type="button"><span class="category-icon">♧</span><span>Sem cobertura</span></button>
+          <button class="category-chip" data-category="mousses" type="button"><span class="category-icon">❋</span><span>Mousses</span></button>
+          <button class="category-chip" data-category="brigadeiros" type="button"><span class="category-icon">●</span><span>Brigadeiros</span></button>
+          <button class="category-chip" data-category="morango" type="button"><span class="category-icon">♥</span><span>Morango</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="bolos">
+      <div class="container">
+        <div class="section-heading products-heading">
+          <div><p class="eyebrow">FEITOS PARA COMPARTILHAR</p><h2>Nossos queridinhos</h2></div>
+          <a class="text-link" href="https://wa.me/5511959171215?text=Oi%2C%20Tati!%20Quero%20ver%20o%20card%C3%A1pio%20completo." target="_blank" rel="noopener">Ver cardápio completo <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <p class="product-disclaimer">Imagens ilustrativas. Cada criação é feita artesanalmente — detalhes e disponibilidade podem variar.</p>
+      </div>
+    </section>
+    <section class="testimonial-section">
+      <div class="container testimonial-layout">
+        <div class="testimonial-intro"><p class="eyebrow">PALAVRAS QUE ADOÇAM O DIA</p><h2>Quem prova,<br><em>se apaixona.</em></h2><p>Um carinho que volta em forma de mensagem — e que deixa nosso dia mais feliz.</p><div class="carousel-controls"><button type="button" id="testimonial-prev" aria-label="Depoimento anterior">←</button><button type="button" id="testimonial-next" aria-label="Próximo depoimento">→</button></div></div>
+        <div class="testimonial-card" aria-live="polite">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          <p class="testimonial-quote" id="testimonial-quote">O bolo ficou lindo e estava simplesmente maravilhoso. Todo mundo perguntou onde eu tinha encomendado!</p>
+          <div class="testimonial-author"><span class="avatar" id="testimonial-avatar">M</span><span><b id="testimonial-name">Mariana S.</b><small id="testimonial-city">São Paulo, SP</small></span></div>
+          <span class="testimonial-counter" id="testimonial-count">01 / 03</span>
+        </div>
+      </div>
+      <p class="demo-note testimonial-disclaimer">Depoimentos demonstrativos para composição do layout.</p>
+    </section>
+
+    <section class="section instagram-section" id="instagram">
+      <div class="container">
+        <div class="section-heading centered"><p class="eyebrow">UM POUCO DO NOSSO DIA A DIA</p><h2>Tem carinho no <em>Instagram.</em></h2><a class="instagram-link" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener">@tati_.bolos <span aria-hidden="true">↗</span></a></div>
+        <div class="instagram-grid" aria-label="Galeria fictícia de doces da Tati Bolos">
+          <a class="insta-tile insta-one" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener" aria-label="Veja a Tati Bolos no Instagram"><span class="mini-cake cake-pink"></span><span class="insta-hover">♡</span></a>
+          <a class="insta-tile insta-two" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener" aria-label="Veja a Tati Bolos no Instagram"><span class="mini-cupcake"></span><span class="insta-hover">♡</span></a>
+          <a class="insta-tile insta-three" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener" aria-label="Veja a Tati Bolos no Instagram"><span class="mini-cake cake-orange"></span><span class="insta-hover">♡</span></a>
+          <a class="insta-tile insta-four" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener" aria-label="Veja a Tati Bolos no Instagram"><span class="mini-brownie"></span><span class="insta-hover">♡</span></a>
+          <a class="insta-tile insta-five" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener" aria-label="Veja a Tati Bolos no Instagram"><span class="mini-cake cake-cream"></span><span class="insta-hover">♡</span></a>
+        </div>
+        <p class="demo-note">Galeria ilustrativa — acompanhe o perfil para ver as criações reais.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#inicio"><span class="brand-mark" aria-hidden="true">t.</span><span class="brand-name">tati <i>bolos</i><small>CONFEITARIA ARTESANAL</small></span></a>
+        <p>Feito com carinho,<br>servido com afeto.</p>
+        <a class="footer-instagram" href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener">◎ &nbsp;@tati_.bolos</a>
+      </div>
+      <div class="footer-column"><h3>Explore</h3><a href="#sobre">Nossa história</a><a href="#bolos">Nossos bolos</a><a href="#receitas">Caderno de receitas</a><a href="cursos.html">Aulas & workshops</a><a href="#equipe">Nossa equipe</a></div>
+      <div class="footer-column"><h3>Fale com a gente</h3><a href="https://wa.me/5511959171215" target="_blank" rel="noopener">WhatsApp: (11) 95917-1215</a><a href="https://www.instagram.com/tati_.bolos/" target="_blank" rel="noopener">Instagram: @tati_.bolos</a><span>São Paulo, SP</span><span>Atendimento sob encomenda</span></div>
+      <div class="footer-contact"><span class="footer-flourish">♡</span><p>Tem uma ocasião especial chegando?</p><a class="button button-light" href="https://wa.me/5511959171215?text=Oi%2C%20Tati!%20Quero%20conversar%20sobre%20uma%20encomenda." target="_blank" rel="noopener">Vamos conversar <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Tati Bolos. Feito com carinho.</span><span>Imagens ilustrativas para demonstração.</span></div>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/5511959171215?text=Oi%2C%20Tati!%20Quero%20fazer%20uma%20encomenda." target="_blank" rel="noopener" aria-label="Fale com a Tati Bolos pelo WhatsApp"><span aria-hidden="true">◉</span></a>
+</body>
+</html>
